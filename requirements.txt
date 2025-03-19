@@ -4,3 +4,4 @@ numpy
 soundfile
 pydub
 tqdm 
+opencc-python-reimplemented
