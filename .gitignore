@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+.env/
+.venv/
+.python-version
+.uv/
+
+# Poetry
+.venv/
+poetry.lock
+
+# 音频文件
+audio/*
+!audio/README.txt
+
+# 转录输出
+output/*
+!output/README.txt
+
+# 临时文件
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+*.aac
+*.tmp
+temp/
+
+# 转录输出
+transcripts/
+*.txt
+!requirements.txt
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db 

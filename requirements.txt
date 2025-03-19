@@ -1,0 +1,6 @@
+whisper
+torch
+numpy
+soundfile
+pydub
+tqdm 

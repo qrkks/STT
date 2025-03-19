@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "stt-project"
+version = "0.1.0"
+description = "课堂录音转文字工具"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "*"
+openai-whisper = "*"
+pydub = "*"
+tqdm = "*"
+soundfile = "*"
+numpy = "*"
+opencc-python-reimplemented = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
